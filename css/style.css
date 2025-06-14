@@ -1,0 +1,12 @@
+@import url("./navBar.css");
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: brder-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(204, 11, 11, 0.938), rgba(206, 206, 10, 0.89))
+}
