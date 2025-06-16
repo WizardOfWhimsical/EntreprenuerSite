@@ -1,7 +1,6 @@
 @import url("./navBar.css");
 @import url("./rootColor.css");
-
-* {
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -9,5 +8,21 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to left, rgba(204, 11, 11, 0.938), rgba(206, 206, 10, 0.89))
+    background: linear-gradient(to left, rgba(48, 45, 45, 0.938), rgba(163, 163, 2, 0.849));
+    color:antiquewhite;
+    text-shadow: 2px 3px 4px rgb(17, 17, 17);
+}
+/* 
+styling for index
+*/
+.essay-format{
+    text-indent: 2em;
+    margin-bottom: 1.5em;
+    margin-left: 10px;
+    padding:2.5em;
+}
+img{
+    border-radius: 5px;
+    width: 100px;
+    /* height: auto; */
 }
