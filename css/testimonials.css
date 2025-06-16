@@ -10,14 +10,16 @@ body{
     width: 100vw;
     height: 100vh;
     background:var(--backgroundGradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color:var(--primaryLight)
 }
 
 .card{
 width:400px;
-height:600px'
+background-color: var(--textColor)
 }
 .card-overflow{
     overflow:auto;
-    max-height: 100px;
+    max-height: 150px;
 }
