@@ -1,0 +1,25 @@
+@import url("./navBar.css");
+@import url("./rootColor.css");
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: brder-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background:var(--backgroundGradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:var(--primaryLight)
+}
+
+.card{
+width:400px;
+background-color: var(--textColor)
+}
+.card-overflow{
+    overflow:auto;
+    max-height: 150px;
+}
