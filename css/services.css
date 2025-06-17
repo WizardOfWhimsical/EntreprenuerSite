@@ -1,0 +1,52 @@
+@import url("./navBar.css");
+@import url("./rootColor.css");
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: brder-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background:var(--backgroundGradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:var(--textColor)
+}
+
+details {
+  font:
+    16px "Open Sans",
+    Calibri,
+    sans-serif;
+  width: 70%;
+  color: var(--primaryColor)
+}
+
+details > summary {
+    display:flex;
+    align-items:center;
+  padding: 2px 6px;
+  /* width: 15em; */
+  background-color: var(--textColor);
+  border: 1px solid rgba(42,47,54,1.0);
+  /* border-color:; */
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  /* border: none; */
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer; /*cursor changes so they know to click*/
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: yellow;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+details:open > summary {
+  background-color: blue;
+}
