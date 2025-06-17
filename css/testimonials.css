@@ -1,19 +1,4 @@
-@import url("./navBar.css");
-@import url("./rootColor.css");
-
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: brder-box;
-}
-body{
-    width: 100vw;
-    height: 100vh;
-    background:var(--backgroundGradient);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color:var(--primaryLight)
-}
+@import url("./basicStyling.css");
 
 .card{
 width:400px;

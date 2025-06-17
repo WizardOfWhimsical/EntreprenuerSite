@@ -1,0 +1,46 @@
+@import url("./basicStyling.css");
+
+details {
+  font:
+    16px "Open Sans",
+    Calibri,
+    sans-serif;
+  width: 70%;
+  color: var(--primaryColor)
+}
+
+details > summary {
+    display:flex;
+    align-items:center;
+  padding: 2px 6px;
+  /* width: 15em; */
+  background-color: var(--textColor);
+  border: 1px solid rgba(42,47,54,1.0);
+  /* border-color:; */
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  /* border: none; */
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer; /*cursor changes so they know to click*/
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color:rgba(220,218,203,0.75);
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+.outer[open] .inner{
+    margin-left: 2.5rem;
+}
+
+.icons{
+    font-size: 60px;
+    color: black;
+}
+.icons:hover{
+    font-size: 70px;
+    color: var(--textColor);
+}
