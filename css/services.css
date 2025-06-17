@@ -1,7 +1,5 @@
 @import url("./basicStyling.css");
 
-
-
 details {
   font:
     16px "Open Sans",
@@ -28,14 +26,14 @@ details > summary {
 
 details > p {
   border-radius: 0 0 10px 10px;
-  background-color: yellow;
+  background-color:rgba(220,218,203,0.75);
   padding: 2px 6px;
   margin: 0;
   box-shadow: 3px 3px 4px black;
 }
 
-details:open > summary {
-  background-color: blue;
+.outer[open] .inner{
+    margin-left: end;
 }
 
 .icons{
