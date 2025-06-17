@@ -33,7 +33,7 @@ details > p {
 }
 
 .outer[open] .inner{
-    margin-left: end;
+    margin-left: 2.5rem;
 }
 
 .icons{
