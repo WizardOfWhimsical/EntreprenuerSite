@@ -6,6 +6,7 @@ details {
     Calibri,
     sans-serif;
   width: 70%;
+  max-width:35em;
   color: var(--primaryColor)
 }
 
