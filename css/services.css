@@ -7,6 +7,7 @@ details {
     sans-serif;
   width: 70%;
   max-width:35em;
+min-width: 17em;
   color: var(--primaryColor)
 }
 
