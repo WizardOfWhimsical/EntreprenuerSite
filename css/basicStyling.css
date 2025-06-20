@@ -22,7 +22,7 @@ body{
 .contactMe:hover{
     font-size: 1.5rem;
 }
-.essay-format p{
+.essay-format{
     text-indent: 2em;
     margin-bottom: 1.5em;
     margin-left: 10px;
